@@ -49,7 +49,7 @@ function App() {
   }
   return (
     <div className="App">
-       <Typography stye={{padding: 16}} variant="h2">React Todo</Typography>
+       <Typography stye={{padding: 16}} variant="h2">To-do List</Typography>
        <TodoForm addTodo= {addTodo} />
        <TodoList todos={todos} toggleComplete ={toggleComplete} removeTodo={removeTodo}/>
     </div>
